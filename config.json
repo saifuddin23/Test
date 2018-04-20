@@ -1,0 +1,2562 @@
+{
+  "theme": {
+    "name": "LaunchpadTheme",
+    "styles": [
+      "style3",
+      "default",
+      "style2"
+    ],
+    "version": "2.7",
+    "sharedTheme": {
+      "isPortalSupport": true,
+      "useHeader": false,
+      "useLogo": false
+    },
+    "customStyles": {
+      "mainBackgroundColor": "#8b572a"
+    }
+  },
+  "portalUrl": "http://viu.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "BC FreshWaterLakes Environmental Monitoring Systems ",
+  "subtitle": "Ministry of Environment and Climate Change Strategy",
+  "keepAppState": true,
+  "logo": "images/logo.jpeg",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [
+    {
+      "label": "BCParks",
+      "url": "http://www.env.gov.bc.ca/bcparks/"
+    }
+  ],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/LaunchpadTheme/widgets/AnchorBarController/Widget",
+        "position": {
+          "bottom": 10,
+          "height": 40,
+          "relativeTo": "map",
+          "zIndex": 0
+        },
+        "version": "2.7",
+        "id": "themes_LaunchpadTheme_widgets_AnchorBarController_Widget_20",
+        "name": "AnchorBarController"
+      },
+      {
+        "uri": "themes/LaunchpadTheme/widgets/Header/Widget",
+        "position": {
+          "left": 15,
+          "top": 17,
+          "width": 670,
+          "height": 46,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "themes_LaunchpadTheme_widgets_Header_Widget_21",
+        "name": "Header"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "left": 350,
+          "top": 25,
+          "width": 300,
+          "zIndex": 1,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_Search_Widget_22",
+        "name": "Search"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "right": 20,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_OverviewMap_Widget_23",
+        "name": "OverviewMap"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "left": 25,
+          "top": 95,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_ZoomSlider_Widget_24",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 25,
+          "top": 175,
+          "relativeTo": "map"
+        },
+        "id": "widgets_HomeButton_Widget_25",
+        "name": "HomeButton",
+        "version": "2.7"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 25,
+          "top": 215,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_MyLocation_Widget_26",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "version": "2.7",
+        "position": {
+          "right": 20,
+          "bottom": 80,
+          "relativeTo": "map"
+        },
+        "closeable": true,
+        "id": "widgets_AttributeTable_Widget_27",
+        "name": "AttributeTable"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 20,
+          "bottom": 60,
+          "relativeTo": "map"
+        },
+        "id": "widgets_Coordinate_Widget_28",
+        "name": "Coordinate",
+        "version": "2.7"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 27,
+          "bottom": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_Scalebar_Widget_29",
+        "name": "Scalebar"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.7",
+        "id": "widgets_Splash_Widget_30",
+        "name": "Splash"
+      },
+      {
+        "position": {
+          "right": 130,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_31",
+        "name": "BasemapGallery",
+        "version": "2.7",
+        "closeable": true,
+        "uri": "widgets/BasemapGallery/Widget",
+        "config": "configs/BasemapGallery/config__31.json"
+      },
+      {
+        "position": {
+          "right": 180,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_32",
+        "name": "Bookmark",
+        "version": "2.7",
+        "closeable": true,
+        "uri": "widgets/Bookmark/Widget",
+        "config": "configs/Bookmark/config__32.json"
+      },
+      {
+        "position": {
+          "right": 230,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_33"
+      },
+      {
+        "uri": "widgets/ExtentNavigate/Widget",
+        "visible": false,
+        "position": {
+          "top": 255,
+          "left": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_ExtentNavigate_Widget_34",
+        "name": "ExtentNavigate"
+      },
+      {
+        "uri": "widgets/FullScreen/Widget",
+        "visible": false,
+        "position": {
+          "right": 70,
+          "top": 20,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_FullScreen_Widget_35",
+        "name": "FullScreen"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "e01264fa14ae49e3b765211d954f767c",
+    "mapOptions": {
+      "extent": {
+        "xmin": -15866383.503266996,
+        "ymin": 6355713.130675922,
+        "xmax": -11627491.662685389,
+        "ymax": 8415232.420791162,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      }
+    },
+    "id": "map",
+    "portalUrl": "http://viu.maps.arcgis.com",
+    "mapRefreshInterval": {
+      "useWebMapRefreshInterval": true
+    }
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/LaunchpadTheme/panels/LaunchpadPanel/Panel",
+      "position": {
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.7",
+        "id": "widgets_Legend_Widget_18",
+        "name": "Legend",
+        "index": 2
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.7",
+        "id": "widgets_LayerList_Widget_19",
+        "name": "LayerList",
+        "index": 3
+      },
+      {
+        "name": "eSearch",
+        "version": "2.7",
+        "uri": "widgets/eSearch/Widget",
+        "index": 4,
+        "id": "widgets_eSearch_Widget_38",
+        "config": "configs/eSearch/config_widgets_eSearch_Widget_38.json",
+        "label": "EnhancedSearch"
+      },
+      {
+        "name": "FeatureLayerHover",
+        "version": "1.4",
+        "IsController": true,
+        "uri": "widgets/FeatureLayerHover/Widget",
+        "index": 5,
+        "id": "widgets_FeatureLayerHover_Widget_39",
+        "config": "configs/FeatureLayerHover/config_widgets_FeatureLayerHover_Widget_39.json"
+      },
+      {
+        "name": "Query",
+        "label": "Enhanced Query",
+        "version": "2.7",
+        "uri": "widgets/Query/Widget",
+        "config": "configs/Query/config_widgets_Query_Widget_40.json",
+        "index": 6,
+        "id": "widgets_Query_Widget_40"
+      },
+      {
+        "name": "Infographic",
+        "version": "2.7",
+        "uri": "widgets/Infographic/Widget",
+        "config": "configs/Infographic/config_widgets_Infographic_Widget_41.json",
+        "index": 7,
+        "id": "widgets_Infographic_Widget_41"
+      },
+      {
+        "name": "Filter",
+        "version": "2.7",
+        "uri": "widgets/Filter/Widget",
+        "config": "configs/Filter/config_widgets_Filter_Widget_42.json",
+        "index": 9,
+        "id": "widgets_Filter_Widget_42"
+      }
+    ],
+    "groups": []
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": [
+        {
+          "uri": "themes/LaunchpadTheme/widgets/AnchorBarController/Widget",
+          "position": {
+            "bottom": 0,
+            "height": 40,
+            "width": "100%",
+            "zIndex": 0,
+            "relativeTo": "map"
+          },
+          "version": "2.7"
+        },
+        {
+          "uri": "themes/LaunchpadTheme/widgets/Header/Widget",
+          "position": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "height": 46,
+            "relativeTo": "map"
+          },
+          "version": "2.7"
+        },
+        {
+          "uri": "widgets/Search/Widget",
+          "position": {
+            "left": 10,
+            "top": 10,
+            "right": 10,
+            "zIndex": 0,
+            "relativeTo": "map"
+          },
+          "version": "2.7"
+        },
+        {
+          "uri": "widgets/OverviewMap/Widget",
+          "position": {
+            "right": 20,
+            "top": 20
+          },
+          "version": "2.7"
+        },
+        {
+          "uri": "widgets/ZoomSlider/Widget",
+          "position": {
+            "right": 10,
+            "bottom": 160,
+            "relativeTo": "map"
+          },
+          "version": "2.7"
+        },
+        {
+          "uri": "widgets/HomeButton/Widget",
+          "position": {
+            "right": 10,
+            "bottom": 75,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "uri": "widgets/MyLocation/Widget",
+          "inPanel": false,
+          "position": {
+            "right": 10,
+            "bottom": 115,
+            "relativeTo": "map"
+          },
+          "version": "2.7"
+        },
+        {
+          "uri": "widgets/AttributeTable/Widget",
+          "version": "2.7",
+          "position": {
+            "left": 10,
+            "bottom": 70,
+            "relativeTo": "map"
+          },
+          "closeable": true
+        },
+        {
+          "uri": "widgets/Coordinate/Widget",
+          "position": {
+            "left": 20,
+            "bottom": 60
+          }
+        },
+        {
+          "uri": "widgets/Scalebar/Widget",
+          "position": {
+            "left": 50,
+            "bottom": 70,
+            "relativeTo": "map"
+          },
+          "version": "2.7"
+        },
+        {
+          "uri": "widgets/Splash/Widget",
+          "visible": false,
+          "position": {
+            "relativeTo": "browser"
+          },
+          "version": "2.7"
+        },
+        {
+          "position": {
+            "left": 10,
+            "bottom": 195,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 10,
+            "bottom": 155,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "position": {
+            "left": 10,
+            "bottom": 115,
+            "relativeTo": "map"
+          }
+        },
+        {
+          "uri": "widgets/ExtentNavigate/Widget",
+          "visible": false,
+          "position": {
+            "right": 10,
+            "bottom": 238,
+            "relativeTo": "map"
+          },
+          "version": "2.7"
+        },
+        {
+          "uri": "widgets/FullScreen/Widget",
+          "visible": false,
+          "position": {
+            "right": 70,
+            "top": 20
+          },
+          "version": "2.7"
+        }
+      ]
+    },
+    "map": {
+      "position": {
+        "left": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0
+      }
+    },
+    "widgetPool": {
+      "panel": {
+        "uri": "themes/LaunchpadTheme/panels/LaunchpadPanel/Panel"
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#508dca",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/predefined_loading_1.gif",
+      "width": 58,
+      "height": 29
+    }
+  },
+  "wabVersion": "2.7",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "dataSource": {
+    "dataSources": {
+      "map~EMSStations_421~3912287366692526": {
+        "type": "Features",
+        "isDynamic": false,
+        "label": "EMSStations - Results",
+        "url": "https://services3.arcgis.com/UIDEa9S9iqq5orpE/arcgis/rest/services/EMSStations/FeatureServer/1",
+        "filterByExtent": false,
+        "resultRecordType": "serviceLimitation",
+        "dataSchema": {
+          "objectIdFieldName": "OBJECTID",
+          "geometryType": "",
+          "displayFieldName": "LOCATION_NAME",
+          "typeIdField": "",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "sqlType": "sqlTypeOther",
+              "nullable": false,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": true
+            },
+            {
+              "name": "Region",
+              "type": "esriFieldTypeInteger",
+              "alias": "Region",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "EMS_ID",
+              "type": "esriFieldTypeString",
+              "alias": "EMS ID",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Site_count",
+              "type": "esriFieldTypeInteger",
+              "alias": "Site count",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Map_Point_Site__",
+              "type": "esriFieldTypeString",
+              "alias": "Map Point Site #",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "LOCATION_NAME",
+              "type": "esriFieldTypeString",
+              "alias": "LOCATION NAME",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "START_DATE",
+              "type": "esriFieldTypeString",
+              "alias": "START DATE",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "END_DATE",
+              "type": "esriFieldTypeString",
+              "alias": "END DATE",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Sample_Month",
+              "type": "esriFieldTypeInteger",
+              "alias": "Sample Month",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Sample_Year",
+              "type": "esriFieldTypeInteger",
+              "alias": "Sample Year",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Difference_from_Sample_year_to_",
+              "type": "esriFieldTypeInteger",
+              "alias": "Difference from Sample year to Max Sample year",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Max_Sample_Year",
+              "type": "esriFieldTypeInteger",
+              "alias": "Max Sample Year",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Min_Sample_Year",
+              "type": "esriFieldTypeInteger",
+              "alias": "Min Sample Year",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Span_of_Sample_Year",
+              "type": "esriFieldTypeInteger",
+              "alias": "Span of Sample Year",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "DESCRIPTOR_DESCRIPTION",
+              "type": "esriFieldTypeString",
+              "alias": "DESCRIPTOR DESCRIPTION",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "CLASS_DESCRIPTION",
+              "type": "esriFieldTypeString",
+              "alias": "CLASS DESCRIPTION",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "METHOD_DESCRIPTION",
+              "type": "esriFieldTypeString",
+              "alias": "METHOD DESCRIPTION",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "SAMPLING_AGENCY",
+              "type": "esriFieldTypeString",
+              "alias": "SAMPLING AGENCY",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "ANALYZING_AGENCY",
+              "type": "esriFieldTypeString",
+              "alias": "ANALYZING AGENCY",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "MINISTRY_CONTACT",
+              "type": "esriFieldTypeString",
+              "alias": "MINISTRY CONTACT",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "SAMPLER",
+              "type": "esriFieldTypeString",
+              "alias": "SAMPLER",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "REQUISITION_ID",
+              "type": "esriFieldTypeString",
+              "alias": "REQUISITION ID",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "UPPER_DEPTH",
+              "type": "esriFieldTypeDouble",
+              "alias": "UPPER DEPTH",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "LOWER_DEPTH",
+              "type": "esriFieldTypeDouble",
+              "alias": "LOWER DEPTH",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Ammonium__mg_L_",
+              "type": "esriFieldTypeString",
+              "alias": "Ammonium (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Amonia_Dissolved__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Amonia Dissolved (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Amonia_T__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Amonia:T (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Chlorophyll_A__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Chlorophyll A (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Chlorophyll_A__g_m2_",
+              "type": "esriFieldTypeString",
+              "alias": "Chlorophyll A (g/m2)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Diss_Oxy__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Diss Oxy (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Diss_Oxy____",
+              "type": "esriFieldTypeString",
+              "alias": "Diss Oxy (%)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Dissolved_Oxygen_Field__mg_L_",
+              "type": "esriFieldTypeString",
+              "alias": "Dissolved Oxygen-Field (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "ExtDepth__m_",
+              "type": "esriFieldTypeDouble",
+              "alias": "ExtDepth (m)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Fe_D__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Fe-D (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Fe_T__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Fe-T (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Mn_D__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Mn-D (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Mn_T__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Mn-T (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "N_Kjel_T__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "N.Kjel:T (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "NO2_NO3__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "NO2+NO3 (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Nitrat_S__mg_L_",
+              "type": "esriFieldTypeString",
+              "alias": "Nitrat:S (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Nitrat_T__mg_L_",
+              "type": "esriFieldTypeString",
+              "alias": "Nitrat:T (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Nitrate__NO3__Dissolved__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Nitrate (NO3) Dissolved (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Nitrate___Nitrite_Diss___mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Nitrate + Nitrite Diss. (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Nitrit_T__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Nitrit:T (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Nitrogen__Kjel___Tot_Diss__mg_L",
+              "type": "esriFieldTypeString",
+              "alias": "Nitrogen (Kjel.) Tot Diss (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Nitrogen___Nitrite_Diss___mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Nitrogen - Nitrite Diss. (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Nitrogen_Organic_Tot_Diss__mg_L",
+              "type": "esriFieldTypeString",
+              "alias": "Nitrogen Organic Tot-Diss (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Nitrogen_Organic_Total__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Nitrogen Organic-Total (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Nitrogen_Total__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Nitrogen Total (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Nitrogen_Total__ug_g_",
+              "type": "esriFieldTypeString",
+              "alias": "Nitrogen Total (ug/g)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Nitrogen_Total_Dissolved__mg_L_",
+              "type": "esriFieldTypeString",
+              "alias": "Nitrogen Total Dissolved (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "ORP__mV_",
+              "type": "esriFieldTypeInteger",
+              "alias": "ORP (mV)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Ortho_Phosphate_Dissolved__mg_L",
+              "type": "esriFieldTypeDouble",
+              "alias": "Ortho-Phosphate Dissolved (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "P__T__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "P--T (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "P_Ortho__mg_L_",
+              "type": "esriFieldTypeString",
+              "alias": "P.Ortho (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Phosphorus_Tot__Dissolved__mg_L",
+              "type": "esriFieldTypeDouble",
+              "alias": "Phosphorus Tot. Dissolved (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Residue_Filterable_1_0u__mg_L_",
+              "type": "esriFieldTypeInteger",
+              "alias": "Residue Filterable 1.0u (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Residue_Non_filterable__mg_L_",
+              "type": "esriFieldTypeInteger",
+              "alias": "Residue Non-filterable (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Si_T__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Si-T (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Silica_T__mg_L_",
+              "type": "esriFieldTypeString",
+              "alias": "Silica:T (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Specific_Conductance__uS_cm_",
+              "type": "esriFieldTypeInteger",
+              "alias": "Specific Conductance (uS/cm)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Temp__C_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Temp (C)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "Turbidity__NTU_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Turbidity (NTU)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": false
+            },
+            {
+              "name": "GlobalID",
+              "type": "esriFieldTypeGlobalID",
+              "alias": "",
+              "sqlType": "sqlTypeOther",
+              "length": 38,
+              "nullable": false,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null,
+              "checked": true,
+              "disabled": true
+            }
+          ],
+          "orderByFields": [
+            "OBJECTID ASC"
+          ]
+        },
+        "id": "map~EMSStations_421~3912287366692526"
+      },
+      "widget~widgets_eSearch_Widget_38~0": {
+        "id": "widget~widgets_eSearch_Widget_38~0",
+        "type": "Features",
+        "label": "MonitoringStations",
+        "dataSchema": {
+          "geometryType": "esriGeometryPoint",
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "sqlType": "sqlTypeOther",
+              "nullable": false,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Region",
+              "type": "esriFieldTypeInteger",
+              "alias": "Region",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Map_Point_Name",
+              "type": "esriFieldTypeString",
+              "alias": "Map Point Name",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Map_Point_Site__",
+              "type": "esriFieldTypeString",
+              "alias": "Map Point Site #",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "LAT",
+              "type": "esriFieldTypeDouble",
+              "alias": "LAT",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "LONG",
+              "type": "esriFieldTypeDouble",
+              "alias": "LONG",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "F__of_sites",
+              "type": "esriFieldTypeInteger",
+              "alias": "# of sites",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Max_Sample_Year",
+              "type": "esriFieldTypeInteger",
+              "alias": "Max Sample Year",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Recent_to_10_year_count",
+              "type": "esriFieldTypeInteger",
+              "alias": "Recent to 10 year count",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "F10_to_20_years_count",
+              "type": "esriFieldTypeInteger",
+              "alias": "10 to 20 years count",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "F20__year_count",
+              "type": "esriFieldTypeInteger",
+              "alias": "20+ year count",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Choro_A",
+              "type": "esriFieldTypeInteger",
+              "alias": "Choro-A",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Secchi_Depth",
+              "type": "esriFieldTypeInteger",
+              "alias": "Secchi Depth",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Total_N",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total N",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Total_P",
+              "type": "esriFieldTypeInteger",
+              "alias": "Total P",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Count_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Count",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Nit_TS",
+              "type": "esriFieldTypeInteger",
+              "alias": "Nit TS",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Phor_TS",
+              "type": "esriFieldTypeInteger",
+              "alias": "Phor TS",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Trophic_Status",
+              "type": "esriFieldTypeInteger",
+              "alias": "Trophic Status",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "To_Be_Noted",
+              "type": "esriFieldTypeString",
+              "alias": "To Be Noted",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Region_Name",
+              "type": "esriFieldTypeString",
+              "alias": "Region Name",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Chart_Name",
+              "type": "esriFieldTypeString",
+              "alias": "Chart Name",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "GlobalID",
+              "type": "esriFieldTypeGlobalID",
+              "alias": "",
+              "sqlType": "sqlTypeOther",
+              "length": 38,
+              "nullable": false,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            }
+          ],
+          "displayField": "Map_Point_Name",
+          "objectIdField": {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "sqlType": "sqlTypeOther",
+            "nullable": false,
+            "editable": false,
+            "domain": null,
+            "defaultValue": null
+          },
+          "typeIdField": ""
+        }
+      },
+      "widget~widgets_eSearch_Widget_38~1": {
+        "id": "widget~widgets_eSearch_Widget_38~1",
+        "type": "Features",
+        "label": "LakesWithinParks",
+        "dataSchema": {
+          "geometryType": "esriGeometryPolygon",
+          "fields": [
+            {
+              "name": "OBJECTID_1",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID_12",
+              "sqlType": "sqlTypeOther",
+              "nullable": false,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "ADMIN_AREA",
+              "type": "esriFieldTypeInteger",
+              "alias": "ADMIN_AREA",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "PROTECTED_",
+              "type": "esriFieldTypeString",
+              "alias": "PROTECTED_",
+              "sqlType": "sqlTypeOther",
+              "length": 50,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "PROTECTED1",
+              "type": "esriFieldTypeString",
+              "alias": "PROTECTED1",
+              "sqlType": "sqlTypeOther",
+              "length": 8,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "PROTECTE_1",
+              "type": "esriFieldTypeString",
+              "alias": "PROTECTE_1",
+              "sqlType": "sqlTypeOther",
+              "length": 50,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "ORCS_SECON",
+              "type": "esriFieldTypeString",
+              "alias": "ORCS_SECON",
+              "sqlType": "sqlTypeOther",
+              "length": 2,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "FEATURE_CO",
+              "type": "esriFieldTypeString",
+              "alias": "FEATURE_CO",
+              "sqlType": "sqlTypeOther",
+              "length": 10,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "FEATURE_AR",
+              "type": "esriFieldTypeDouble",
+              "alias": "FEATURE_AR",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "FEATURE_LE",
+              "type": "esriFieldTypeDouble",
+              "alias": "FEATURE_LE",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeInteger",
+              "alias": "OBJECTID",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "SHAPE_Leng",
+              "type": "esriFieldTypeDouble",
+              "alias": "SHAPE_Leng",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "URL",
+              "type": "esriFieldTypeString",
+              "alias": "URL",
+              "sqlType": "sqlTypeOther",
+              "length": 50,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "InPoly_FID",
+              "type": "esriFieldTypeInteger",
+              "alias": "InPoly_FID",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "SimPgnFlag",
+              "type": "esriFieldTypeInteger",
+              "alias": "SimPgnFlag",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "MaxSimpTol",
+              "type": "esriFieldTypeDouble",
+              "alias": "MaxSimpTol",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "MinSimpTol",
+              "type": "esriFieldTypeDouble",
+              "alias": "MinSimpTol",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Shape_Le_1",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape_Le_1",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "FID_1",
+              "type": "esriFieldTypeInteger",
+              "alias": "FID_1",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Map_Point1",
+              "type": "esriFieldTypeString",
+              "alias": "Map_Point1",
+              "sqlType": "sqlTypeOther",
+              "length": 254,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "LAT",
+              "type": "esriFieldTypeDouble",
+              "alias": "LAT",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "LONG",
+              "type": "esriFieldTypeDouble",
+              "alias": "LONG",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "F__of_site",
+              "type": "esriFieldTypeInteger",
+              "alias": "F__of_site",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Max_Sample",
+              "type": "esriFieldTypeInteger",
+              "alias": "Max_Sample",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Chart_Name",
+              "type": "esriFieldTypeString",
+              "alias": "Chart_Name",
+              "sqlType": "sqlTypeOther",
+              "length": 254,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "IMAG",
+              "type": "esriFieldTypeString",
+              "alias": "IMAG",
+              "sqlType": "sqlTypeOther",
+              "length": 1000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Shape__Area",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape__Area",
+              "sqlType": "sqlTypeDouble",
+              "nullable": true,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Shape__Length",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape__Length",
+              "sqlType": "sqlTypeDouble",
+              "nullable": true,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            }
+          ],
+          "displayField": "",
+          "objectIdField": {
+            "name": "OBJECTID_1",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID_12",
+            "sqlType": "sqlTypeOther",
+            "nullable": false,
+            "editable": false,
+            "domain": null,
+            "defaultValue": null
+          },
+          "typeIdField": ""
+        }
+      },
+      "widget~widgets_Query_Widget_40~0": {
+        "id": "widget~widgets_Query_Widget_40~0",
+        "type": "Features",
+        "label": "EMSStationsBcParks - ResultData",
+        "dataSchema": {
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID",
+              "sqlType": "sqlTypeOther",
+              "nullable": false,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Region",
+              "type": "esriFieldTypeInteger",
+              "alias": "Region",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "EMS_ID",
+              "type": "esriFieldTypeString",
+              "alias": "EMS ID",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Site_count",
+              "type": "esriFieldTypeInteger",
+              "alias": "Site count",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Map_Point_Site__",
+              "type": "esriFieldTypeString",
+              "alias": "Map Point Site #",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "LOCATION_NAME",
+              "type": "esriFieldTypeString",
+              "alias": "LOCATION NAME",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "START_DATE",
+              "type": "esriFieldTypeString",
+              "alias": "START DATE",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "END_DATE",
+              "type": "esriFieldTypeString",
+              "alias": "END DATE",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Sample_Month",
+              "type": "esriFieldTypeInteger",
+              "alias": "Sample Month",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Sample_Year",
+              "type": "esriFieldTypeInteger",
+              "alias": "Sample Year",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Difference_from_Sample_year_to_",
+              "type": "esriFieldTypeInteger",
+              "alias": "Difference from Sample year to Max Sample year",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Max_Sample_Year",
+              "type": "esriFieldTypeInteger",
+              "alias": "Max Sample Year",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Min_Sample_Year",
+              "type": "esriFieldTypeInteger",
+              "alias": "Min Sample Year",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Span_of_Sample_Year",
+              "type": "esriFieldTypeInteger",
+              "alias": "Span of Sample Year",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "DESCRIPTOR_DESCRIPTION",
+              "type": "esriFieldTypeString",
+              "alias": "DESCRIPTOR DESCRIPTION",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "CLASS_DESCRIPTION",
+              "type": "esriFieldTypeString",
+              "alias": "CLASS DESCRIPTION",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "METHOD_DESCRIPTION",
+              "type": "esriFieldTypeString",
+              "alias": "METHOD DESCRIPTION",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "SAMPLING_AGENCY",
+              "type": "esriFieldTypeString",
+              "alias": "SAMPLING AGENCY",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "ANALYZING_AGENCY",
+              "type": "esriFieldTypeString",
+              "alias": "ANALYZING AGENCY",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "MINISTRY_CONTACT",
+              "type": "esriFieldTypeString",
+              "alias": "MINISTRY CONTACT",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "SAMPLER",
+              "type": "esriFieldTypeString",
+              "alias": "SAMPLER",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "REQUISITION_ID",
+              "type": "esriFieldTypeString",
+              "alias": "REQUISITION ID",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "UPPER_DEPTH",
+              "type": "esriFieldTypeDouble",
+              "alias": "UPPER DEPTH",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "LOWER_DEPTH",
+              "type": "esriFieldTypeDouble",
+              "alias": "LOWER DEPTH",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Ammonium__mg_L_",
+              "type": "esriFieldTypeString",
+              "alias": "Ammonium (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Amonia_Dissolved__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Amonia Dissolved (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Amonia_T__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Amonia:T (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Chlorophyll_A__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Chlorophyll A (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Chlorophyll_A__g_m2_",
+              "type": "esriFieldTypeString",
+              "alias": "Chlorophyll A (g/m2)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Diss_Oxy__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Diss Oxy (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Diss_Oxy____",
+              "type": "esriFieldTypeString",
+              "alias": "Diss Oxy (%)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Dissolved_Oxygen_Field__mg_L_",
+              "type": "esriFieldTypeString",
+              "alias": "Dissolved Oxygen-Field (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "ExtDepth__m_",
+              "type": "esriFieldTypeDouble",
+              "alias": "ExtDepth (m)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Fe_D__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Fe-D (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Fe_T__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Fe-T (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Mn_D__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Mn-D (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Mn_T__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Mn-T (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "N_Kjel_T__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "N.Kjel:T (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "NO2_NO3__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "NO2+NO3 (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Nitrat_S__mg_L_",
+              "type": "esriFieldTypeString",
+              "alias": "Nitrat:S (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Nitrat_T__mg_L_",
+              "type": "esriFieldTypeString",
+              "alias": "Nitrat:T (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Nitrate__NO3__Dissolved__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Nitrate (NO3) Dissolved (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Nitrate___Nitrite_Diss___mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Nitrate + Nitrite Diss. (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Nitrit_T__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Nitrit:T (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Nitrogen__Kjel___Tot_Diss__mg_L",
+              "type": "esriFieldTypeString",
+              "alias": "Nitrogen (Kjel.) Tot Diss (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Nitrogen___Nitrite_Diss___mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Nitrogen - Nitrite Diss. (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Nitrogen_Organic_Tot_Diss__mg_L",
+              "type": "esriFieldTypeString",
+              "alias": "Nitrogen Organic Tot-Diss (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Nitrogen_Organic_Total__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Nitrogen Organic-Total (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Nitrogen_Total__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Nitrogen Total (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Nitrogen_Total__ug_g_",
+              "type": "esriFieldTypeString",
+              "alias": "Nitrogen Total (ug/g)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Nitrogen_Total_Dissolved__mg_L_",
+              "type": "esriFieldTypeString",
+              "alias": "Nitrogen Total Dissolved (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "ORP__mV_",
+              "type": "esriFieldTypeInteger",
+              "alias": "ORP (mV)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Ortho_Phosphate_Dissolved__mg_L",
+              "type": "esriFieldTypeDouble",
+              "alias": "Ortho-Phosphate Dissolved (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "P__T__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "P--T (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "P_Ortho__mg_L_",
+              "type": "esriFieldTypeString",
+              "alias": "P.Ortho (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Phosphorus_Tot__Dissolved__mg_L",
+              "type": "esriFieldTypeDouble",
+              "alias": "Phosphorus Tot. Dissolved (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Residue_Filterable_1_0u__mg_L_",
+              "type": "esriFieldTypeInteger",
+              "alias": "Residue Filterable 1.0u (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Residue_Non_filterable__mg_L_",
+              "type": "esriFieldTypeInteger",
+              "alias": "Residue Non-filterable (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Si_T__mg_L_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Si-T (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Silica_T__mg_L_",
+              "type": "esriFieldTypeString",
+              "alias": "Silica:T (mg/L)",
+              "sqlType": "sqlTypeOther",
+              "length": 8000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Specific_Conductance__uS_cm_",
+              "type": "esriFieldTypeInteger",
+              "alias": "Specific Conductance (uS/cm)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Temp__C_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Temp (C)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Turbidity__NTU_",
+              "type": "esriFieldTypeDouble",
+              "alias": "Turbidity (NTU)",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            }
+          ],
+          "displayField": "",
+          "objectIdField": {
+            "name": "OBJECTID",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID",
+            "sqlType": "sqlTypeOther",
+            "nullable": false,
+            "editable": false,
+            "domain": null,
+            "defaultValue": null
+          },
+          "typeIdField": ""
+        }
+      }
+    },
+    "settings": {}
+  },
+  "logoLink": "https://www2.gov.bc.ca/gov/content/governments/organizational-structure/ministries-organizations/ministries/environment-climate-change"
+}
