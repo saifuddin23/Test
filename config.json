@@ -16,8 +16,8 @@
       "mainBackgroundColor": "#8b572a"
     }
   },
-  "portalUrl": "http://viu.maps.arcgis.com",
-  "appId": "",
+  "portalUrl": "viu.maps.arcgis.com",
+  "appId": "2TehZYdhGu8ad08u",
   "authorizedCrossOriginDomains": [],
   "title": "BC FreshWaterLakes Environmental Monitoring Systems ",
   "subtitle": "Ministry of Environment and Climate Change Strategy",
